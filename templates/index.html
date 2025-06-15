@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Add two Numbers</title>
+    <style> body { font-family: Arial; text-align: center; margin-top: 50px; }
+        input, button { padding: 10px; margin: 10px; font-size: 16px; }
+    </style>
+    </head>
+
+    <body>
+        <h1>🔢 Add Two Numbers</h1>
+        <form method="post">
+            <input type="number" name="a" step="any" placeholder="Enter first number" required>
+            <input type="number" name="b" step="any" placeholder="Enter second number" required>
+            <br>
+            <button type="submit"ADD></button>
+        </form>
+        {
+            %if result is not none %}
+            <h2>Result : {{result}}</h2>
+            {%endif%}
+    </body>
+</html>
